@@ -3,6 +3,10 @@ package chess;
 import chess.Point;
 import chess.Worker;
 
+/**
+ * Represents the table
+ * @author afym
+ */
 public class Table {
 	private Worker worker;
 	private int dimension;
