@@ -1,8 +1,8 @@
 package pattern.factory;
 
-import pattern.factory.Shape;
+import pattern.factory.IShape;
 
-public class Circle implements Shape {
+public class Circle implements IShape {
 
 	@Override
 	public void draw() {

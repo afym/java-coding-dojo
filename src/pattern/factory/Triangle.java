@@ -1,8 +1,8 @@
 package pattern.factory;
 
-import pattern.factory.Shape;
+import pattern.factory.IShape;
 
-public class Triangle implements Shape{
+public class Triangle implements IShape{
 
 	@Override
 	public void draw() {
